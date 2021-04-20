@@ -27,8 +27,8 @@ module.exports = {
 
     const response = `https://cdn.discordapp.com/avatars/${
       argsFetch === undefined ? getId : argsFetch.id
-    }/${argsFetch === undefined ? getAvatar : argsFetch.avatar}.png`;
-    let animatedGif = await petPetGif(response);
+    }/${argsFetch === undefined ? getAvatar : argsFetch.avatar}.png?size=4096`;
+    let animatedGif = await petPetGif(response).catch();
 
     const attachment = new MessageAttachment(animatedGif, "petpet.gif");
 

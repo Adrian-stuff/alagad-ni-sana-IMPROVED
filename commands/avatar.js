@@ -24,7 +24,7 @@ module.exports = {
 
     const response = `https://cdn.discordapp.com/avatars/${
       argsFetch === undefined ? getId : argsFetch.id
-    }/${argsFetch === undefined ? getAvatar : argsFetch.avatar}.png`;
+    }/${argsFetch === undefined ? getAvatar : argsFetch.avatar}.png?size=4096`;
 
     const answer = `${
       (argsFetch === undefined ? false : argsFetch.avatar === null)
