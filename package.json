@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Adrian-stuff/alagad-ni-sana-improved#readme",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "discord-slash-commands-client": "^1.1.1",
     "discord.js": "^12.5.3",
     "dotenv": "^8.2.0",
